@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Fascinate&family=Inter:wght@500&family=Montserrat&family=Oswald:wght@500&family=Roboto+Mono:wght@500&display=swap');
+
+* { 
+    font-family: 'Abel', sans-serif;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 30pt;
+    color: #49fb35;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+#snakeLink {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    background-color: #49fb35;
+    color: white;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 15%;
+    margin-right: 15%;
+}
+
+#ticTacToeLink {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    background-color: #49fb35;
+    color: rgb(6, 5, 4);
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 15%;
+    margin-right: 15%;
+}

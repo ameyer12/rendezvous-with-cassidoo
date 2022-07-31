@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Fascinate&family=Inter:wght@500&family=Montserrat&family=Oswald:wght@500&family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+body {
+    background-color: black;
+}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #FAAFBA;
+    border: 1px solid #FAAFBA;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    color: #83EEFF;
+}
+
+h1 {
+    color:#83EEFF;
+}
+
+.game--status {
+    color: #83EEFF;
+}
+
+.p1 {
+    color:#83EEFF;
+    margin-right: 0.5%;
+}
+
+.p2 {
+    color:#83EEFF;
+    margin-right: 0.5%;
+    margin-left: 10%;
+}
+
+
+.playerNameSubmitDiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#player1Input{
+   margin-right: 0.5%;
+   border-radius: 20%;
+   height: 10%;
+}
+
+#nameInputButton1{
+    border-radius: 20%;
+    height: 10%;
+}
+
+#player2Input{
+    margin-right: 0.5%;
+    border-radius: 20%;
+    height: 10%;
+}
+   
+
+#nameInputButton2{
+    border-radius: 20%;
+    height: 10%;
+}
+
+.game--restart{
+    border-radius: 20%;
+    height: 10%;
+}
+
+.playerNameDisplay{
+    display: flex;
+    justify-content: space-evenly;
+    color: #83EEFF;
+}

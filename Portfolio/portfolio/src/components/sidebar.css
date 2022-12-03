@@ -1,0 +1,99 @@
+@media screen and (min-width: 900px){
+    .bottom-line {
+        color: aquamarine;
+        font-size: 25pt;
+        position: fixed;
+        left: 4rem;
+        bottom: 5rem;
+        list-style: none;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    }
+
+    .top-line {
+        color: aquamarine;
+        font-size: 25pt;
+        position: fixed;
+        left: 4rem;
+        bottom: 20rem;
+        list-style: none;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    }
+
+    .linkedin-icon {
+        position: fixed;
+        list-style: none;
+        left: 3.64rem;
+        bottom: 16.5rem;
+        margin-right: 15%;
+    }
+
+    .twitter-icon {
+        position: fixed;
+        list-style: none;
+        left: 3.64rem;
+        bottom: 14.5rem;
+        margin-right: 15%;
+    }
+
+    .github-icon {
+        position: fixed;
+        list-style: none;
+        left: 3.64rem;
+        bottom: 12.5rem;
+        margin-right: 15%;
+    }
+
+    .facebook-icon {
+        position: fixed;
+        list-style: none;
+        left: 3.64rem;
+        bottom: 10.5rem;
+        margin-right: 15%;
+    }
+
+    .instagram-icon {
+        position: fixed;
+        list-style: none;
+        left: 3.64rem;
+        bottom: 8.5rem;
+        margin-right: 15%;
+    }
+}
+
+.linkedin-icon:hover, .twitter-icon:hover, .github-icon:hover, .facebook-icon:hover, .instagram-icon:hover{
+    padding: 2px;
+}
+
+@media screen and (max-width: 900px){
+    .left-side {
+        display: none;
+    }
+}
+
+.left-side {
+    animation: left-side 2500ms ease-out;
+}
+
+@keyframes left-side {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;;
+    }
+}

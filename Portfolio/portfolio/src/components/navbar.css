@@ -1,0 +1,196 @@
+#navbar-brand-name {
+    color: aquamarine; 
+    margin-left: 3%;
+    margin-right: 51%;
+    flex-grow: 3;
+    animation: navbar-brand-logo 400ms ease-out;
+}
+
+.nav-item {
+    margin-left: 5%;
+}
+
+nav {
+    background-color: #05386B;
+}
+
+@media screen and (min-width: 992px){
+    #resume-button {
+        color: aquamarine;
+        border-color: aquamarine;
+        width: 5rem;
+        height: 2.8rem;
+        padding-top: 3.2%;
+        padding-bottom: 3%;
+        padding-right: 3%;
+        padding-left: 3%;
+        margin-left: 5%;
+        margin-right: 2rem;
+        margin-top: -0.22%;
+    }
+}
+
+@media screen and (min-width: 1650px){
+    #navbar-brand-name {
+        margin-right: 60%;
+        flex-grow: 3;
+    }
+    #resume-button {
+        width: 5rem;
+        height: 2.8rem;
+        padding-top: 3.1%;
+        padding-bottom: 3%;
+        padding-right: 3%;
+        padding-left: 3%;
+        margin-left: 8%;
+        margin-right: 1rem;
+        margin-top: -0.22%;
+    }
+}
+
+@media screen and (min-width: 1520px) and (max-width: 1650px){
+    #resume-button {
+        width: 5rem;
+        height: 2.8rem;
+        padding-top: 3.1%;
+        padding-bottom: 3%;
+        padding-right: 3%;
+        padding-left: 3%;
+        margin-left: 5%;
+        margin-right: 1rem;
+        margin-top: -0.22%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #resume-button {
+        color: aquamarine;
+        border-color: aquamarine;
+        width: 5rem;
+        height: 2.8rem;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        padding-left: 1%;
+        margin-left: 5%;
+        margin-top: 0.9%;
+    }
+}
+
+@media screen and (max-width: 1150px) and (min-width: 992px){
+    #resume-button {
+        display: none;
+    }
+}
+
+#about-link, #projects-link, #contact-link {
+    color: white;
+}
+
+#about-link {
+    animation: about-link 250ms ease-out;
+}
+
+#projects-link {
+    animation: projects-link 450ms ease-out;
+}
+
+#contact-link {
+    animation: projects-link 650ms ease-out;
+}
+
+#resume-button {
+    animation: resume-button 400ms ease-out;
+}
+
+ul.navbar-nav #about-link:hover, #projects-link:hover, #contact-link:hover { 
+    color: #5CDB95; 
+}
+
+.navbar-nav {
+    margin-top: 2%;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+    border-color: green;
+}
+
+.navbar-light .navbar-toggler{
+    margin-right: 1%;
+    border: 1px solid white
+}
+
+@keyframes navbar-brand-logo {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;;
+    }
+}
+
+@keyframes about-link {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes projects-link {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes contact-link {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes resume-button {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;;
+    }
+}

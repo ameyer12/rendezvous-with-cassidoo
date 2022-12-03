@@ -1,0 +1,39 @@
+#contact-body {
+    background-color: #05386B;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contact-h4 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: 40pt !important;
+    white-space: nowrap;
+}
+
+#contact-p {
+    color: darkgray;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 40%;
+    /* margin-bottom: 30%; */
+    margin-right: 11%;
+}
+
+#contact-button {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border-color: aquamarine;
+    color: aquamarine;
+    margin-bottom: 15%; 
+    width: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 3%;
+}

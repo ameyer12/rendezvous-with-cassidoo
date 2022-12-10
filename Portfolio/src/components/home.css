@@ -48,7 +48,7 @@ h2 {
     animation: home-h2 1750ms ease-out;
 }
 
-@keyframes intro-p {
+/* @keyframes intro-p {
     0% {
         opacity: 0%;
     }
@@ -134,5 +134,5 @@ h2 {
     100% {
         opacity: 100%;
     }
-}
+} */
 

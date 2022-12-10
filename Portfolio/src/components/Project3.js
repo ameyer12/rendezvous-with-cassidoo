@@ -11,15 +11,8 @@ function Project3() {
           </p>
           <div>
             <ul id="project3-links-ul">
-                <li id="project3-link1">
-                    <a 
-                        id="project3-link1"
-                        onClick={() => {
-                            swal("Development still in progress. Check back later!")
-                        }
-                    }
-                    >View Site</a></li>
-                <li id="project3-link2"><a id="project3-link2" href="https://github.com/Igein/grace-shopper-starter">GitHub</a></li>
+                <li id="project3-link1"><a id="project3-link1" href="https://thecloset12.netlify.app">View Site</a></li>
+                <li id="project3-link2"><a id="project3-link2" href="https://github.com/ameyer12/grace-shopper-starter">GitHub</a></li>
             </ul>
           </div>
       </div>

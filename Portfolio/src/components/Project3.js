@@ -7,7 +7,7 @@ function Project3() {
       <div id="project3-body" className="animate__animated animate__fadeInDown">
           <h4>The Closet</h4>
           <p id="project3-description">
-            A full stack e-commerce clothing application. This project was developed as a group project, utilizing agile devlopment practices. Tech stack: REACT, HTML/CSS, Bootstrap, Node, Express, PostgreSQL, Render.
+            A full stack e-commerce clothing application. This project was developed as a group project, utilizing agile development practices. Tech stack: REACT, HTML/CSS, Bootstrap, Node, Express, PostgreSQL, Render.
           </p>
           <div>
             <ul id="project3-links-ul">

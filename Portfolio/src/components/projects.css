@@ -1,6 +1,7 @@
 #projects-body {
     height: 90vh;
     display: flex;
+    margin-left: 16%;
 }
 
 #projects-h3 {

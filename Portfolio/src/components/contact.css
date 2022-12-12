@@ -21,7 +21,9 @@
     justify-self: center;
     align-self: center;
     width: 40%;
-    margin-right: 11%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 2%;
 }
 
 #contact-button {
@@ -31,8 +33,15 @@
     border-color: aquamarine;
     color: aquamarine;
     margin-bottom: 15%; 
-    width: 10%;
+    width: 8.6rem;
     padding-bottom: 1%;
     padding-top: 1%;
     margin-top: 3%;
+}
+
+
+@media screen and (max-width: 745px){
+    #contact-p {
+        width: 70%;
+    }   
 }

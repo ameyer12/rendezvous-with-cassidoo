@@ -20,15 +20,17 @@ h4 {
     color: darkgray;
     top: 125%;
     left: -70%;
-    width: 180%;
+    width: 160%;
+    margin-left: 20%;
     right: 10%;
 }
 
 #project5-links-ul {
     display: flex;
     position: absolute;
-    top: 450%;
+    top: 420%;
     left: -64%;
+    margin-left: 8%;
     list-style: none;
 }
 
@@ -59,3 +61,15 @@ h4 {
 .swal-button:hover {
     background-color: aquamarine !important;
 }
+
+@media screen and (max-width: 1200px){
+    #project5-body {
+        right: 6.2%;
+    }  
+}
+
+/* @media screen and (max-width: 965px){
+    #project5-body {
+        right:
+    }  
+} */

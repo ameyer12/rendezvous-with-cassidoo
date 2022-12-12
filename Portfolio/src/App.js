@@ -22,19 +22,19 @@ function App() {
 
   return (
     !loading && (
-      <div>
+      <div className="body-container"> 
         <Navbar navigate={navigate} />
         <Home />
         <Sidebar />
         <RightSidebar />
-        <About />
-        <Projects setCurrentProject={setCurrentProject} currentProject={currentProject}/>
+        <About className="about" />
+        <Projects className="projects" setCurrentProject={setCurrentProject} currentProject={currentProject}/>
         <Project1 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
         <Project2 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
         <Project3 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
         <Project4 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
         <Project5 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
-        <Contact />
+        <Contact className="contact" />
       </div>
     )
   )

@@ -72,3 +72,30 @@ h4 {
         left: -32%;
     }
 }
+
+@media screen and (max-width: 790px){
+    #project3-body {
+        display: flex;
+        top: 275%;
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    #project3-h4 {
+        font-size: 14pt !important;
+    }
+
+    #project3-description {
+        font-size: 8pt;
+    }
+
+    #project3-link1 {
+        font-size: 8pt;
+    }
+
+    #project3-link2 {
+        font-size: 8pt;
+    }
+}

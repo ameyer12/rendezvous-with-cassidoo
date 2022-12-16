@@ -63,3 +63,36 @@ h4 {
         left: -15%;
     }
 }
+
+@media screen and (max-width: 790px){
+    #project2-body {
+        display: flex;
+        top: 275%;
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    #project2-h4 {
+        font-size: 14pt !important;
+    }
+
+    #project2-description {
+        font-size: 8pt;
+        width: 110%;
+        left: 5%;
+    }
+
+    #project2-link1 {
+        font-size: 8pt;
+    }
+
+    #project2-link2 {
+        font-size: 8pt;
+    }
+
+    #project2-links-ul {
+        top: 470%;
+    }
+}

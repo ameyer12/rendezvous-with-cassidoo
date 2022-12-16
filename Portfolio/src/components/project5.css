@@ -78,3 +78,31 @@ h4 {
         left: -37%;
     }
 }
+
+
+@media screen and (max-width: 790px){
+    #project5-body {
+        display: flex;
+        top: 275%;
+        margin-left: 25%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    #project5-h4 {
+        font-size: 14pt !important;
+    }
+
+    #project5-description {
+        font-size: 8pt;
+    }
+
+    #project5-link1 {
+        font-size: 8pt;
+    }
+
+    #project5-link2 {
+        font-size: 8pt;
+    }
+}

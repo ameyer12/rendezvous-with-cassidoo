@@ -61,3 +61,14 @@ h4 {
         right: 27.9%;
     }  
 }
+
+@media screen and (max-width: 900px){
+    #project3-description {
+        font-size: 10pt;
+        width: 220%;
+        left: -38%;
+    }  
+    #project3-links-ul {
+        left: -32%;
+    }
+}

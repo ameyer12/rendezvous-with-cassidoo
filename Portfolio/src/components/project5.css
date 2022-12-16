@@ -68,8 +68,13 @@ h4 {
     }  
 }
 
-/* @media screen and (max-width: 965px){
-    #project5-body {
-        right:
+@media screen and (max-width: 900px){
+    #project5-description {
+        font-size: 11pt;
+        width: 100%;
+        left: -38%;
     }  
-} */
+    #project5-links-ul {
+        left: -37%;
+    }
+}

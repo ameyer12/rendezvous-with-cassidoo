@@ -20,7 +20,7 @@ function Project5() {
                         }
                     }                   
                     >View Site</a></li>
-                <li id="project5-link2"><a id="project5-link2" href="https://github.com/Igein/grace-shopper-starter">GitHub</a></li>
+                <li id="project5-link2"><a id="project5-link2" href="https://github.com/ameyer12/AcrossThePondSoccer">GitHub</a></li>
             </ul>
           </div>
       </div>

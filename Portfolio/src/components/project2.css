@@ -52,3 +52,14 @@ h4 {
         right: 21%;
     }  
 }
+
+@media screen and (max-width: 900px){
+    #project2-description {
+        font-size: 10pt;
+        width: 195%;
+        left: -38%;
+    }  
+    #project2-links-ul {
+        left: -15%;
+    }
+}

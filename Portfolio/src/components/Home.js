@@ -18,11 +18,11 @@ function Home() {
               />
           </span>
         </h2>
-        <p className="animate__animated animate__fadeInDown home-paragraph">I lorem ipsum lorem ipsum lorem ipsum hi this is cool lorem ipsum lorem
+        <p className="animate__animated animate__fadeInDown home-paragraph">I'm a junior software engineer specializing in front end development,
         <br></br>
-        hi this is cool  lorem ipsum lorem ipsum lorem ipsum lorem ipsum hi this
+        and I'm currently looking for junior front-end and full-stack developer positions.
         <br></br>
-        ipsum lorem ipsum lorem ipsum hi this is cool lorem ipsum cool</p>
+        Welcome to my portfolio. It was built using React, HTML, CSS/Bootstrap, and JavaScript.</p>
     </div>
   )
 }

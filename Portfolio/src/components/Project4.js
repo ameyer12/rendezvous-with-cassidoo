@@ -6,7 +6,7 @@ function Project4() {
       <div id="project4-body" className="animate__animated animate__fadeInDown">
           <h4>Guessing Game</h4>
           <p id="project4-description">
-            A guessing game web app. Users have 5 guesses to guess a random number betweeen 1 and 100. Tech stack: HTML, CSS, JavaScript.
+            A guessing game web app. Users have 5 guesses to guess a random number between 1 and 100. Tech stack: HTML, CSS, JavaScript.
           </p>
           <div>
             <ul id="project4-links-ul">

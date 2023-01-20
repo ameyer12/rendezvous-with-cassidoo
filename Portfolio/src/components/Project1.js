@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './project1.css';
 
 function Project1() {
+
+  function resetProject1Section() {
+    const project1Body = document.querySelector("#project1-body");
+    project1Body.style.display = "none";
+  }
+
+  useEffect(() => {
+    resetProject1Section();
+  })
+
     return (
       <div id="project1-body" className="animate__animated animate__fadeInDown">
           <h4>Stranger's Things</h4>

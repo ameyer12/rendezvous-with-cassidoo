@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import swal from 'sweetalert';
 import './project3.css';
 
 function Project3() {
+
+  function resetProject3Section() {
+    const project3Body = document.querySelector("#project3-body");
+    project3Body.style.display = "none";
+  }
+
+  useEffect(() => {
+    resetProject3Section();
+  })
+
     return (
       <div id="project3-body" className="animate__animated animate__fadeInDown">
           <h4>The Closet</h4>

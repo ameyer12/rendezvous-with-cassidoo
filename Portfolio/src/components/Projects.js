@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './projects.css'
 
 function Projects({setCurrentProject, currentProject}) {
@@ -6,7 +6,7 @@ function Projects({setCurrentProject, currentProject}) {
     return (
       <div id="projects-body">
           <h3 id="projects-h3">Projects</h3>
-          <ul  className="projects-list">
+          <ul className="projects-list">
             <li id="project1"
                 onClick={() => { 
                   const project1Body = document.getElementById("project1-body");

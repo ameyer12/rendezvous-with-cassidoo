@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './project4.css';
 
 function Project4() {
+
+  function resetProject4Section() {
+    const project4Body = document.querySelector("#project4-body");
+    project4Body.style.display = "none";
+  }
+
+  useEffect(() => {
+    resetProject4Section();
+  })
+
     return (
       <div id="project4-body" className="animate__animated animate__fadeInDown">
           <h4>Guessing Game</h4>

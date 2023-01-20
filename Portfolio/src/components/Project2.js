@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './project2.css';
 
 function Project2() {
+
+  function resetProject2Section() {
+    const project2Body = document.querySelector("#project2-body");
+    project2Body.style.display = "none";
+  }
+
+  useEffect(() => {
+    resetProject2Section();
+  })
+
     return (
       <div id="project2-body" className="animate__animated animate__fadeInDown">
           <h4>Fitness Tracker</h4>

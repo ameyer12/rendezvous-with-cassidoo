@@ -1,9 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useEffect } from "react";
 import swal from "sweetalert";
 import './project5.css';
 
 function Project5() {
+
+  function resetProject5Section() {
+    const project5Body = document.querySelector("#project5-body");
+    project5Body.style.display = "none";
+  }
+
+  useEffect(() => {
+    resetProject5Section();
+  }, [])
+
     return (
       <div id="project5-body" className="animate__animated animate__fadeInDown">
           <h4 id="project5-h4">Across The Pond Soccer</h4>

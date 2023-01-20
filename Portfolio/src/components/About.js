@@ -4,7 +4,7 @@ import './about.css'
 function About() {
     return (
       <div id='about-body' >
-          <h3>About Me</h3>
+          <h3 id="about-h3">About Me</h3>
           <p className="about-me-paragraph">My name is Austin Meyer. I’m 23 years old, and I live in Fort Worth, Texas.
             <br></br>
             I attended The University of Texas at Austin and received my Bachelor of Arts in English

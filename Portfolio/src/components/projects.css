@@ -59,21 +59,58 @@
 }
 
 
-#project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover{
-    padding: 2px;
-    animation: project-list 900ms ease-out;
-    -webkit-animation-fill-mode: forwards;
-    cursor: pointer;
+
+@media screen and (min-width: 400px){ 
+    #project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover{
+        padding: 2px;
+        animation: project-list 900ms ease-out;
+        -webkit-animation-fill-mode: forwards;
+        cursor: pointer;
+    }
+    
+    @keyframes project-list {
+        0% {
+            font-size: 16pt;
+        }
+    
+        100% {
+            font-size: 17pt;
+        }
+    }
 }
 
-@keyframes project-list {
-    0% {
-        font-size: 16pt;
+
+@media screen and (max-width: 400px){
+    #projects-h3 {
+        margin: 0%;
+        border-bottom: 1px solid white;
+        width: 100%;
     }
 
-    100% {
-        font-size: 17pt;
+    #projects-body {
+        margin: 0%;
     }
+
+    #h3-container {
+        width: 100%;
+        margin: 0%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    /* #project1 {
+        display: none;
+    }
+    #project2 {
+        display: none;
+    }
+    #project3 {
+        display: none;
+    }
+    #project4 {
+        display: none;
+    }
+    #project5 {
+        display: none;
+    } */
 }
-
-

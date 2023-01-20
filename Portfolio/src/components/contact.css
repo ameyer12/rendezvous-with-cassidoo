@@ -45,3 +45,36 @@
         width: 70%;
     }   
 }
+
+@media screen and (max-width: 400px){
+    #contact-body {
+        margin: 0%;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #contact-h4 {
+        margin: 0%;
+        width: 90%;
+        border-bottom: 1px solid white;
+        margin-left: 4%;
+        margin-right: 4%;
+        align-self: flex-start;
+    }
+
+    #h3-container {
+        /* width: 100%; */
+        margin: 0%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #contact-p {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        align-self: flex-start;
+        width: 93%;
+    }
+}

@@ -85,10 +85,8 @@
         margin: 0%;
         border-bottom: 1px solid white;
         width: 100%;
-    }
-
-    #projects-body {
-        margin: 0%;
+        position: static;
+        margin-top: 10rem;
     }
 
     #h3-container {
@@ -98,19 +96,28 @@
         margin-right: 4%;
     }
 
-    /* #project1 {
-        display: none;
+    #projects-body {
+        margin: 0%;
+    }
+
+    #project1 {
+        margin-left: 4%;
+        margin-top: 12rem;
     }
     #project2 {
-        display: none;
+        margin-left: 4%;
+        margin-top: 12rem;
     }
     #project3 {
-        display: none;
+        margin-left: 4%;
+        margin-top: 12rem;
     }
     #project4 {
-        display: none;
+        margin-left: 4%;
+        margin-top: 12rem;
     }
     #project5 {
-        display: none;
-    } */
+        margin-left: 4%;
+        margin-top: 12rem;
+    }
 }

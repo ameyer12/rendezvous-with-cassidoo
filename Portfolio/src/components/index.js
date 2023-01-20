@@ -10,3 +10,4 @@ export { default as Project2} from "./Project2";
 export { default as Project3} from "./Project3";
 export { default as Project4} from "./Project4";
 export { default as Project5} from "./Project5";
+export { default as MobileFooter} from "./MobileFooter";

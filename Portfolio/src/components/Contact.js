@@ -8,6 +8,7 @@ function Contact() {
         <h4 id='contact-h4'>Get in touch</h4>
         <p id='contact-p'>I am currently open to new opportunities and am looking for junior web developer and junior front-end developer roles. I am also always looking to build new connections, so feel free to say hello!</p>
         <a id="contact-button" type="button" class="btn btn-outline-dark btn-sm" href = "mailto: austinmeyer1106@gmail.com" target="_blank" rel="noreferrer">Shoot me an email</a>
+        <p id="footer-note">Designed and built by Austin Meyer</p>
     </div>
   )
 }

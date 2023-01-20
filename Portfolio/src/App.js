@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Home, Navbar, About, Contact, Sidebar, RightSidebar, Projects, Project1, Project2, Project3, Project4, Project5 } from "./components";
+import { Home, Navbar, About, Contact, Sidebar, RightSidebar, Projects, Project1, Project2, Project3, Project4, Project5, MobileFooter } from "./components";
 import { useNavigate } from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -35,6 +35,7 @@ function App() {
         <Project4 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
         <Project5 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
         <Contact className="contact" />
+        <MobileFooter />
       </div>
     )
   )

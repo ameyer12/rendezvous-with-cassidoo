@@ -1,5 +1,6 @@
 #about-body {
     height: 100vh;
+    min-height: 700px;
     margin-left: 16%;
     margin-right: 16%;
 }
@@ -102,4 +103,3 @@ h3 {
         margin-right: 1%;
     }
 }
-

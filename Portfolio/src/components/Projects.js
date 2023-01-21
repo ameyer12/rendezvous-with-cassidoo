@@ -8,7 +8,6 @@ function Projects({setCurrentProject, currentProject}) {
       <div id="projects-body">
         <div id="h3-container">
           <h3 id="projects-h3">Projects</h3>
-        </div>
           <ul className="projects-list">
             <li id="project1"
                 onClick={() => { 
@@ -107,7 +106,7 @@ function Projects({setCurrentProject, currentProject}) {
             > » The Closet</li>
             <li id="project4"
                   onClick={() => {
-                    if(window.innderWidth > 400) {
+                    if(window.innerWidth > 400) {
                       const project1Body = document.getElementById("project1-body");
                       const project2Body = document.getElementById("project2-body");
                       const project3Body = document.getElementById("project3-body");
@@ -167,10 +166,9 @@ function Projects({setCurrentProject, currentProject}) {
                     }
                   }
                 }         
-            
-            
             > » Across The Pond Soccer</li>
           </ul>
+        </div>
       </div>
     )
   }

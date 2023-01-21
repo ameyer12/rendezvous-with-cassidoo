@@ -1,5 +1,6 @@
 #projects-body {
     height: 90vh;
+    min-height: 700px;
     display: flex;
     margin-left: 16%;
 }
@@ -8,13 +9,15 @@
     font-size: 40pt !important;
 }
 
+.projects-list {
+    margin-top: 10%;
+    margin-left: -10%;
+}
+
 #project1 {
     font-size: 16pt;
     list-style: none;
     color: aquamarine;
-    position: absolute;
-    left: 16%;
-    top: 230%;
     border-bottom: 1pt solid aquamarine;
 }
 
@@ -22,43 +25,33 @@
     font-size: 16pt;
     list-style: none;
     color: aquamarine;
-    position: absolute;
-    left: 16%;
-    top: 237%;
     border-bottom: 1pt solid aquamarine;
+    margin-top: 10%;
 }
 
 #project3 {
     font-size: 16pt;
     list-style: none;
     color: aquamarine;
-    position: absolute;
-    left: 16%;
-    top: 244%;
     border-bottom: 1pt solid aquamarine;
+    margin-top: 10%;
 }
 
 #project4 {
     font-size: 16pt;
     list-style: none;
     color: aquamarine;
-    position: absolute;
-    left: 16%;
-    top: 251%;
     border-bottom: 1pt solid aquamarine;
+    margin-top: 10%;
 }
 
 #project5 {
     font-size: 16pt;
     list-style: none;
     color: aquamarine;
-    position: absolute;
-    left: 16%;
-    top: 258%;
     border-bottom: 1pt solid aquamarine;
+    margin-top: 10%;
 }
-
-
 
 @media screen and (min-width: 400px){ 
     #project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover{
@@ -85,7 +78,6 @@
         margin: 0%;
         border-bottom: 1px solid white;
         width: 100%;
-        margin-top: 1rem;
     }
 
     #h3-container {
@@ -99,13 +91,11 @@
         margin: 0%;
     }
 
-    #project1 {
+    /* #project1 {
         margin-left: 4%;
-        margin-top: 12rem;
     }
     #project2 {
         margin-left: 4%;
-        margin-top: 12rem;
     }
     #project3 {
         margin-left: 4%;
@@ -118,5 +108,5 @@
     #project5 {
         margin-left: 4%;
         margin-top: 12rem;
-    }
+    } */
 }

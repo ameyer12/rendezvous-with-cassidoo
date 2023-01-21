@@ -22,14 +22,7 @@ function Project5() {
           </p>
           <div>
             <ul id="project5-links-ul">
-                <li id="project5-link1">
-                    <a 
-                    id="project5-link1"
-                    onClick={() => {
-                        swal("Development still in progress. Check back later!")
-                        }
-                    }                   
-                    >View Site</a></li>
+                <li id="project5-link1"><a id="project5-link1" href="https://acrossthepondsoccer.netlify.app">View Site</a></li>
                 <li id="project5-link2"><a id="project5-link2" href="https://github.com/ameyer12/AcrossThePondSoccer">GitHub</a></li>
             </ul>
           </div>

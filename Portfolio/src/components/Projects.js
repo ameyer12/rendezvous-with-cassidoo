@@ -158,7 +158,7 @@ function Projects({setCurrentProject, currentProject}) {
                     }
                   } else if(window.innerWidth < 400) {
                       const el = document.createElement('div')
-                      el.innerHTML = "<a href='https://github.com/ameyer12/AcrossThePondSoccer'>GitHub<br><br><a href='http://google.com'>Website</a></a>"
+                      el.innerHTML = "<a href='https://github.com/ameyer12/AcrossThePondSoccer'>GitHub<br><br><a href='https://acrossthepondsoccer.netlify.app'>Website</a></a>"
 
                       swal({
                         title: "Check it out!",

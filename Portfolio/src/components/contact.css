@@ -60,6 +60,7 @@
 @media screen and (max-width: 400px){
     #contact-body {
         margin: 0%;
+        margin-top: 40%;
         width: 100%;
         justify-content: flex-start;
         align-items: flex-start;
@@ -67,7 +68,6 @@
 
     #contact-h4 {
         margin: 0%;
-        /* width: 90%; */
         border-bottom: 1px solid white;
         margin-left: 4%;
         margin-right: 4%;

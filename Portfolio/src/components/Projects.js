@@ -12,7 +12,7 @@ function Projects({setCurrentProject, currentProject}) {
                   <li id="project1"
                       onClick={() => { 
 
-                        if(window.innerWidth > 400) {
+                        if(window.innerWidth > 880) {
                           const project1Body = document.getElementById("project1-body");
                           const project2Body = document.getElementById("project2-body");
                           const project3Body = document.getElementById("project3-body");
@@ -29,7 +29,7 @@ function Projects({setCurrentProject, currentProject}) {
                             } else if(project1Body.style.display !== ""){
                               project1Body.style = "display:none"
                             }
-                          } else if(window.innerWidth < 400 || window.innerHeight < 710){
+                          } else if(window.innerWidth < 880 || window.innerHeight < 710){
                               const el = document.createElement('div')
                               el.innerHTML = "<a href='https://github.com/ameyer12/StrangersThings'>GitHub<br><br><a href='https://sparkling-cranachan-ed1fb9.netlify.app'>Website</a></a>"
 
@@ -44,7 +44,7 @@ function Projects({setCurrentProject, currentProject}) {
                   <li id="project2"
                         onClick={() => {
 
-                          if(window.innerWidth > 400) { 
+                          if(window.innerWidth > 880) { 
                             const project1Body = document.getElementById("project1-body");
                             const project2Body = document.getElementById("project2-body");
                             const project3Body = document.getElementById("project3-body");
@@ -61,7 +61,7 @@ function Projects({setCurrentProject, currentProject}) {
                               } else if(project2Body.style.display !== ""){
                                 project2Body.style = "display:none"
                               }
-                          } else if(window.innerWidth < 400 || window.innerHeight < 710){
+                          } else if(window.innerWidth < 880 || window.innerHeight < 710){
                               const el = document.createElement('div')
                               el.innerHTML = "<a href='https://github.com/ameyer12/FitnessTrackrFrontEnd'>GitHub<br><br><a href='https://wonderful-baklava-d81c60.netlify.app'>Website</a></a>"
 
@@ -75,7 +75,7 @@ function Projects({setCurrentProject, currentProject}) {
                   > » Fitness Tracker</li>
                   <li id="project3"
                         onClick={() => {
-                          if(window.innerWidth > 400) { 
+                          if(window.innerWidth > 880) { 
                             const project1Body = document.getElementById("project1-body");
                             const project2Body = document.getElementById("project2-body");
                             const project3Body = document.getElementById("project3-body");
@@ -92,7 +92,7 @@ function Projects({setCurrentProject, currentProject}) {
                               } else if(project3Body.style.display !== ""){
                                 project3Body.style = "display:none"
                               }
-                            } else if(window.innerWidth < 400 || window.innerHeight < 710){
+                            } else if(window.innerWidth < 880 || window.innerHeight < 710){
                                 const el = document.createElement('div')
                                 el.innerHTML = "<a href='https://github.com/ameyer12/grace-shopper-starter'>GitHub<br><br><a href='https://thecloset12.netlify.app'>Website</a></a>"
 
@@ -106,7 +106,7 @@ function Projects({setCurrentProject, currentProject}) {
                   > » The Closet</li>
                   <li id="project4"
                         onClick={() => {
-                          if(window.innerWidth > 400) {
+                          if(window.innerWidth > 880) {
                             const project1Body = document.getElementById("project1-body");
                             const project2Body = document.getElementById("project2-body");
                             const project3Body = document.getElementById("project3-body");
@@ -123,7 +123,7 @@ function Projects({setCurrentProject, currentProject}) {
                               } else if(project4Body.style.display !== ""){
                                 project4Body.style = "display:none"
                               }
-                            } else if(window.innerWidth < 400 || window.innerHeight < 710){
+                            } else if(window.innerWidth < 880 || window.innerHeight < 710){
                                 const el = document.createElement('div')
                                 el.innerHTML = "<a href='https://github.com/ameyer12/guessing-game'>GitHub<br><br><a href='https://guessinggame1to100.netlify.app'>Website</a></a>"
         
@@ -138,7 +138,7 @@ function Projects({setCurrentProject, currentProject}) {
                   <li id="project5"
                       onClick={() => {
 
-                        if(window.innerWidth > 400) {
+                        if(window.innerWidth > 880) {
                           const project1Body = document.getElementById("project1-body");
                           const project2Body = document.getElementById("project2-body");
                           const project3Body = document.getElementById("project3-body");
@@ -155,7 +155,7 @@ function Projects({setCurrentProject, currentProject}) {
                           } else if(project5Body.style.display !== ""){
                             project5Body.style = "display:none"
                           }
-                        } else if(window.innerWidth < 400 || window.innerHeight < 710) {
+                        } else if(window.innerWidth < 880 || window.innerHeight < 710) {
                             const el = document.createElement('div')
                             el.innerHTML = "<a href='https://github.com/ameyer12/AcrossThePondSoccer'>GitHub<br><br><a href='https://acrossthepondsoccer.netlify.app'>Website</a></a>"
 

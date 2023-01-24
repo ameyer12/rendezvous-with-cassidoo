@@ -2,10 +2,11 @@
     background-color: #05386B;
     height: 90vh;
     min-height: 700px;
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 #contact-h4 {
@@ -21,7 +22,7 @@
     display: flex;
     justify-self: center;
     align-self: center;
-    width: 40%;
+    width: 60%;
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 2%;
@@ -66,7 +67,7 @@
 
     #contact-h4 {
         margin: 0%;
-        width: 90%;
+        /* width: 90%; */
         border-bottom: 1px solid white;
         margin-left: 4%;
         margin-right: 4%;

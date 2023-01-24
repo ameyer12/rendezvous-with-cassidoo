@@ -12,7 +12,7 @@ function Projects({setCurrentProject, currentProject}) {
                   <li id="project1"
                       onClick={() => { 
 
-                        if(window.innerWidth > 400 || window.innerHeight > 710) {
+                        if(window.innerWidth > 400) {
                           const project1Body = document.getElementById("project1-body");
                           const project2Body = document.getElementById("project2-body");
                           const project3Body = document.getElementById("project3-body");
@@ -29,7 +29,7 @@ function Projects({setCurrentProject, currentProject}) {
                             } else if(project1Body.style.display !== ""){
                               project1Body.style = "display:none"
                             }
-                          } else if(window.innerWidth < 400 || window.innerHeight < 710){
+                          } else if(window.innerWidth < 400){
                               const el = document.createElement('div')
                               el.innerHTML = "<a href='https://github.com/ameyer12/StrangersThings'>GitHub<br><br><a href='https://sparkling-cranachan-ed1fb9.netlify.app'>Website</a></a>"
 

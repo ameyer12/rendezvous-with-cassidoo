@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css"
 import logoImage from "./Austin Meyer Logo.png";
-import resumePDF from "./Austin Meyer Resume - 2022.pdf"
+import resumePDF from "./Austin Meyer Resume - 2023.pdf"
 
 function Navbar({navigate}) {
 

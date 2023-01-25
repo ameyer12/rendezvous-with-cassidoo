@@ -82,7 +82,7 @@ ul.navbar-nav #about-link:hover, #projects-link:hover, #contact-link:hover {
 .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
     outline: none !important;
     box-shadow: none !important;
-    border: 0;
+    border: 0 !important;
 }
 
 .navbar-toggler span {

@@ -18,13 +18,13 @@ function Home() {
                 cursor
                 cursorStyle= "|"
                 typeSpeed={80}
-                words={['I build things for the web.']}
+                words={['I create things for the web.']}
               />
           </span>
         </h2>
         <p className="animate__animated animate__fadeInDown home-paragraph">I'm a junior software engineer specializing in front end development,
         and I'm currently looking for junior front-end and full-stack developer positions.
-        Welcome to my portfolio. It was built using React, HTML, CSS/Bootstrap, and JavaScript.</p>
+        Welcome to my portfolio. It was built using React, HTML, CSS, Bootstrap, and JavaScript.</p>
     </section>
     </div>
   )

@@ -11,7 +11,6 @@ function App() {
 
   const [loading, setLoading] = useState(true);
   const spinner = document.getElementById("spinner");
-  const [currentProject, setCurrentProject] = useState("")
 
   if(spinner){
     setTimeout(() =>{
@@ -30,12 +29,7 @@ function App() {
         <Sidebar />
         <RightSidebar />
         <About className="about" />
-        <Projects className="projects" setCurrentProject={setCurrentProject} currentProject={currentProject}/>
-        <Project1 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
-        <Project2 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
-        <Project3 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
-        <Project4 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
-        <Project5 setCurrentProject={setCurrentProject} currentProject={currentProject}/>
+        <Projects className="projects"/>
         <Contact className="contact" />
         <MobileFooter />
       </div>

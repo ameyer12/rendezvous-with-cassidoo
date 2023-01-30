@@ -1,120 +1,87 @@
 #projects-body {
-    height: 100vh;
-    min-height: 700px;
+    /* height: 120vh; */
     display: flex;
-    margin-left: 16%;
-    margin-right: 16%;
-    margin-top: 8%;
+    min-height: 700px;
 }
 
 #projects-h3 {
-    font-size: 40pt !important;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 1%;
 }
 
-.projects-list {
-    margin-top: 10%;
-    margin-left: -10%;
+#project-card {
+    background-color: #05386B!important;
+    border: 1pt solid aquamarine !important;
+    color: darkgray;
+    box-shadow: 10px 5px 5px black;
+    width: 20rem;
+    height: 27rem;
+    margin: 1%;
 }
 
-#project1 {
-    font-size: 16pt;
-    list-style: none;
-    color: aquamarine;
-    border-bottom: 1pt solid aquamarine;
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-#project2 {
-    font-size: 16pt;
-    list-style: none;
-    color: aquamarine;
-    border-bottom: 1pt solid aquamarine;
-    margin-top: 10%;
+
+.project-button {
+    background-color: aquamarine !important; 
+    color: #05386B !important;
+    border: none !important;
 }
 
-#project3 {
-    font-size: 16pt;
-    list-style: none;
-    color: aquamarine;
-    border-bottom: 1pt solid aquamarine;
-    margin-top: 10%;
+#visit-site-button {
+    margin-right: 4%;
 }
 
-#project4 {
-    font-size: 16pt;
-    list-style: none;
-    color: aquamarine;
-    border-bottom: 1pt solid aquamarine;
-    margin-top: 10%;
+
+.card-title{
+   color: aquamarine;
 }
 
-#project5 {
-    font-size: 16pt;
-    list-style: none;
-    color: aquamarine;
-    border-bottom: 1pt solid aquamarine;
-    margin-top: 10%;
+#project-bold-text {
+    font-weight: bold;
+    font-style: italic;
 }
 
-@media screen and (min-width: 400px){ 
-    #project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover{
-        padding: 2px;
-        animation: project-list 900ms ease-out;
-        -webkit-animation-fill-mode: forwards;
-        cursor: pointer;
-    }
-    
-    @keyframes project-list {
-        0% {
-            font-size: 16pt;
-        }
-    
-        100% {
-            font-size: 17pt;
-        }
+.project-button:hover {
+    background-color: lightgray !important;
+}
+
+#project-card:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+
+@media screen and (max-width: 835px){
+    #projects-h3 {
+       margin-bottom: 4%;
     }
 }
-
 
 @media screen and (max-width: 400px){
+
     #projects-h3 {
-        margin-top: 65%;
+        text-align: center;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4%;
         border-bottom: 1px solid white;
-        width: 100%;
-    }
+     }
 
-    #h3-container {
+    #project-card {
         width: 100%;
-        margin: 0%;
-        margin-left: 4%;
-        margin-right: 4%;
+        height: 100%;
+        margin-bottom: 5%;
     }
-
     #projects-body {
-        margin: 0%;
-    }
-
-    /* #project1 {
-        margin-left: 4%;
-    }
-    #project2 {
-        margin-left: 4%;
-    }
-    #project3 {
-        margin-left: 4%;
-        margin-top: 12rem;
-    }
-    #project4 {
-        margin-left: 4%;
-        margin-top: 12rem;
-    }
-    #project5 {
-        margin-left: 4%;
-        margin-top: 12rem;
-    } */
-}
-
-@media screen and (min-width: 401px) and (max-width: 800px){
-    #projects-h3 {
-        margin-top: 50%;
+        margin-top: 10%;
     }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import './about.css';
+import portfolioImage from './Portfolio Image.jpg'
 import { DiReact, DiCss3, DiGithubBadge, DiJavascript1, DiHtml5, DiBootstrap, DiGit } from 'react-icons/di';
 import { SiExpress, SiFigma, SiNodedotjs } from 'react-icons/si'
 
@@ -9,7 +10,7 @@ function About() {
         <h3 id="about-h3">About Me</h3>
         <section className="about-grid-container">
           <div className="card" id="about-card2">
-            <img id="about-image" src="https://i.postimg.cc/J0XB42wS/IMG-0955.jpg" alt="Graduation Photo"></img>
+            <img id="about-image" src={portfolioImage} alt="Graduation Photo"></img>
             <h3 className="about-skills-section">Skills</h3>
             <table className="skills-bullets">
               <tr>

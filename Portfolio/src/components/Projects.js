@@ -6,7 +6,8 @@ import acrossThePondSoccerImage from "./Across The Pond Soccer.png";
 import fitnessTrackerImage from "./Fitness Tracker.png";
 import strangersThingsImage from "./Stranger's Things.png";
 import guessingGameImage from "./Guessing Game.png";
-import underConstructionImage from "./Under Construction.png";
+import toDoAppImage from "./To Do App.png";
+// import underConstructionImage from "./Under Construction.png";
 import "animate.css";
 
 function Projects() {
@@ -83,39 +84,17 @@ function Projects() {
             </div>
           </div>
           <div class="card" id="project-card">
-            <img class="card-img-top" src={underConstructionImage} alt="Project Image"></img>
+            <img class="card-img-top" src={toDoAppImage} alt="Project Image"></img>
             <div class="card-body">
               <h5 class="card-title">To-Do List</h5>
-              <p class="card-text"> A web app that allows users to create and edit a to-do list. Development is currently in progress.
+              <p class="card-text">A web app that allows users to create and edit a to-do list with persistent stored in a Firebase backend.
               <br></br>
               <br></br>
-              <span id="project-bold-text">Tech stack:</span>  HTML, CSS, JavaScript
+              <span id="project-bold-text">Tech stack:</span> JavaScript, HTML, CSS, Bootstrap, Firebase
+              <br></br>
               </p>
-              <br></br>
-              <a 
-              href="/" class="btn btn-primary project-button" 
-              id="visit-site-button"
-              onClick={(ev) => {
-                ev.preventDefault();
-                swal({
-                  title: "Development in progress",
-                  text: "Check back later!"
-                });
-              }}
-              >
-              Visit Site</a>
-              <a 
-              href="/" 
-              class="btn btn-primary project-button"
-              onClick={(ev) => {
-                ev.preventDefault();
-                swal({
-                  title: "Development in progress",
-                  text: "Check back later!"
-                });
-              }}
-              >
-              GitHub</a>
+              <a href="https://todochecklistapp.netlify.app/" class="btn btn-primary project-button" id="visit-site-button">Visit Site</a>
+              <a href="https://github.com/ameyer12/to-do-app" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
           </div>     

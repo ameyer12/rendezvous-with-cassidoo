@@ -86,7 +86,7 @@ function Projects() {
             <img class="card-img-top" src={underConstructionImage} alt="Project Image"></img>
             <div class="card-body">
               <h5 class="card-title">To-Do List</h5>
-              <p class="card-text"> A web app that allows users to create and edit a to-do list. Develpment is currently in progress.
+              <p class="card-text"> A web app that allows users to create and edit a to-do list. Development is currently in progress.
               <br></br>
               <br></br>
               <span id="project-bold-text">Tech stack:</span>  HTML, CSS, JavaScript

@@ -58,6 +58,17 @@
     animation-duration: 1s;
 }
 
+#under-construction-card-p{
+    margin-bottom: 4%;
+}
+
+.swal-button {
+    background-color: #05386B;
+}
+
+.swal-button:hover {
+    background-color: aquamarine !important;
+}
 
 @media screen and (max-width: 835px){
     #projects-h3 {

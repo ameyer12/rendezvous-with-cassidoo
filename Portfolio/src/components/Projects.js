@@ -27,7 +27,7 @@ function Projects() {
               <br></br>
               <span id="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, and PostgreSQL
               </p>
-              <a href="https://thecloset12.netlify.app" class="btn btn-primary project-button" id="visit-site-button">Visit Site</a>
+              <a href="https://thecloset12.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/grace-shopper-starter" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
@@ -40,7 +40,7 @@ function Projects() {
               <br></br>
               <span id="project-bold-text">Tech stack:</span> React, HTML, CSS, Bootstrap, JavaScript, and REST API
               </p>
-              <a href="https://acrossthepondsoccer.netlify.app" class="btn btn-primary project-button" id="visit-site-button">Visit Site</a>
+              <a href="https://acrossthepondsoccer.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/AcrossThePondSoccer" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
@@ -53,7 +53,7 @@ function Projects() {
               <br></br>
               <span id="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, and PostgreSQL
               </p>
-              <a href="https://wonderful-baklava-d81c60.netlify.app" class="btn btn-primary project-button" id="visit-site-button">Visit Site</a>
+              <a href="https://wonderful-baklava-d81c60.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/FitnessTrackrFrontEnd" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
@@ -66,7 +66,7 @@ function Projects() {
               <br></br>
               <span id="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Material UI
               </p>
-              <a href="https://sparkling-cranachan-ed1fb9.netlify.app" class="btn btn-primary project-button" id="visit-site-button">Visit Site</a>
+              <a href="https://sparkling-cranachan-ed1fb9.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/StrangersThings" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
@@ -80,7 +80,7 @@ function Projects() {
               <span id="project-bold-text">Tech stack:</span>  HTML, CSS, JavaScript
               </p>
               <br></br>
-              <a href="https://guessinggame1to100.netlify.app" class="btn btn-primary project-button" id="visit-site-button">Visit Site</a>
+              <a href="https://guessinggame1to100.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/guessing-game" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
@@ -94,7 +94,7 @@ function Projects() {
               <span id="project-bold-text">Tech stack:</span> JavaScript, HTML, CSS, Bootstrap, Firebase
               <br></br>
               </p>
-              <a href="https://todochecklistapp.netlify.app" class="btn btn-primary project-button" id="visit-site-button">Visit Site</a>
+              <a href="https://todochecklistapp.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/to-do-app" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
@@ -108,7 +108,7 @@ function Projects() {
               <span id="project-bold-text">Tech stack:</span> JavaScript, React, HTML, CSS, Bootstrap, Canva
               <br></br>
               </p>
-              <a href="https://losangelesmountains123.netlify.app/" class="btn btn-primary project-button" id="visit-site-button">Visit Site</a>
+              <a href="https://losangelesmountains123.netlify.app/" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/informational-website" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
@@ -119,12 +119,10 @@ function Projects() {
               <p id="under-construction-card-p" class="card-text">This app will help users identify upcoming DFW area professional sports games and locate the stadium/arena utilizing Google Maps.
               <br></br>
               <br></br>
-              {/* <span id="project-bold-text">Tech stack:</span> Undecided */}
               <br></br>
               </p>
               <a 
-                href="/" class="btn btn-primary project-button" 
-                id="visit-site-button"
+                href="/" class="btn btn-primary project-button visit-site-button" 
                 onClick={(ev) => {
                   ev.preventDefault();
                   swal({

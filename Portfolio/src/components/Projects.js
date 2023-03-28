@@ -25,7 +25,7 @@ function Projects() {
               <p class="card-text"> A full stack e-commerce clothing application.
               <br></br>
               <br></br>
-              <span id="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, and PostgreSQL
+              <span class="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, and PostgreSQL
               </p>
               <a href="https://thecloset12.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/grace-shopper-starter" class="btn btn-primary project-button">GitHub</a>
@@ -38,7 +38,7 @@ function Projects() {
               <p class="card-text"> A web application for users to view the top scorers and assisters in Europe's top 5 soccer leagues.
               <br></br>
               <br></br>
-              <span id="project-bold-text">Tech stack:</span> React, HTML, CSS, Bootstrap, JavaScript, and REST API
+              <span class="project-bold-text">Tech stack:</span> React, HTML, CSS, Bootstrap, JavaScript, and REST API
               </p>
               <a href="https://acrossthepondsoccer.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/AcrossThePondSoccer" class="btn btn-primary project-button">GitHub</a>
@@ -51,7 +51,7 @@ function Projects() {
               <p class="card-text"> A web app for users to build fitness routines and create custom workouts.
               <br></br>
               <br></br>
-              <span id="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, and PostgreSQL
+              <span class="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, and PostgreSQL
               </p>
               <a href="https://wonderful-baklava-d81c60.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/FitnessTrackrFrontEnd" class="btn btn-primary project-button">GitHub</a>
@@ -64,7 +64,7 @@ function Projects() {
               <p class="card-text"> A React CRUD app that allows users to register an account and buy and sell items on the marketplace.
               <br></br>
               <br></br>
-              <span id="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Material UI
+              <span class="project-bold-text">Tech stack:</span> React, HTML, CSS, JavaScript, Material UI
               </p>
               <a href="https://sparkling-cranachan-ed1fb9.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
               <a href="https://github.com/ameyer12/StrangersThings" class="btn btn-primary project-button">GitHub</a>
@@ -77,7 +77,7 @@ function Projects() {
               <p class="card-text"> A guessing game web app. Users have 5 guesses to guess a random number between 1 and 100.
               <br></br>
               <br></br>
-              <span id="project-bold-text">Tech stack:</span>  HTML, CSS, JavaScript
+              <span class="project-bold-text">Tech stack:</span>  HTML, CSS, JavaScript
               </p>
               <br></br>
               <a href="https://guessinggame1to100.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
@@ -91,7 +91,7 @@ function Projects() {
               <p class="card-text">A web app that allows users to create and edit a to-do list with persistent data stored in a Firebase back-end.
               <br></br>
               <br></br>
-              <span id="project-bold-text">Tech stack:</span> JavaScript, HTML, CSS, Bootstrap, Firebase
+              <span class="project-bold-text">Tech stack:</span> JavaScript, HTML, CSS, Bootstrap, Firebase
               <br></br>
               </p>
               <a href="https://todochecklistapp.netlify.app" class="btn btn-primary project-button visit-site-button">Visit Site</a>
@@ -105,7 +105,7 @@ function Projects() {
               <p class="card-text">My goal with this project was to further improve my design and UI optimization skills. All images were designed by me.
               <br></br>
               <br></br>
-              <span id="project-bold-text">Tech stack:</span> JavaScript, React, HTML, CSS, Bootstrap, Canva
+              <span class="project-bold-text">Tech stack:</span> JavaScript, React, HTML, CSS, Bootstrap, Canva
               <br></br>
               </p>
               <a href="https://losangelesmountains123.netlify.app/" class="btn btn-primary project-button visit-site-button">Visit Site</a>

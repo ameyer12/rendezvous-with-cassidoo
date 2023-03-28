@@ -44,7 +44,7 @@
    color: aquamarine;
 }
 
-#project-bold-text {
+.project-bold-text {
     font-weight: bold;
     font-style: italic;
 }

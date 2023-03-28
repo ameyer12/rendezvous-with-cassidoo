@@ -10,7 +10,7 @@
     margin-bottom: 1%;
 }
 
-#project-card {
+.project-card {
     background-color: #05386B!important;
     border: 1pt solid aquamarine !important;
     color: darkgray;
@@ -53,7 +53,7 @@
     background-color: lightgray !important;
 }
 
-#project-card:hover {
+.project-card:hover {
     animation: pulse;
     animation-duration: 1s;
 }

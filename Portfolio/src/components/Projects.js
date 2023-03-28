@@ -18,7 +18,7 @@ function Projects() {
       <div id="h3-container">
        <h3 id="projects-h3">Projects</h3>
         <div className="projects-container">
-          <div class="card" id="project-card">
+          <div class="card project-card">
             <img class="card-img-top" src={theClosetImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">The Closet</h5>
@@ -31,7 +31,7 @@ function Projects() {
               <a href="https://github.com/ameyer12/grace-shopper-starter" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
-          <div class="card" id="project-card">
+          <div class="card project-card">
             <img class="card-img-top" src={acrossThePondSoccerImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">Across The Pond Soccer</h5>
@@ -44,7 +44,7 @@ function Projects() {
               <a href="https://github.com/ameyer12/AcrossThePondSoccer" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
-          <div class="card" id="project-card">
+          <div class="card project-card">
             <img class="card-img-top" src={fitnessTrackerImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">Fitness Tracker</h5>
@@ -57,7 +57,7 @@ function Projects() {
               <a href="https://github.com/ameyer12/FitnessTrackrFrontEnd" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
-          <div class="card" id="project-card">
+          <div class="card project-card">
             <img class="card-img-top" src={strangersThingsImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">Stranger's Things</h5>
@@ -70,7 +70,7 @@ function Projects() {
               <a href="https://github.com/ameyer12/StrangersThings" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
-          <div class="card" id="project-card">
+          <div class="card project-card">
             <img class="card-img-top" src={guessingGameImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">Guessing Game</h5>
@@ -84,7 +84,7 @@ function Projects() {
               <a href="https://github.com/ameyer12/guessing-game" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
-          <div class="card" id="project-card">
+          <div class="card project-card">
             <img class="card-img-top" src={toDoAppImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">To-Do List</h5>
@@ -98,7 +98,7 @@ function Projects() {
               <a href="https://github.com/ameyer12/to-do-app" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
-          <div class="card" id="project-card">
+          <div class="card project-card">
             <img class="card-img-top" src={informationalWebsiteImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">Informational Website</h5>
@@ -112,7 +112,7 @@ function Projects() {
               <a href="https://github.com/ameyer12/informational-website" class="btn btn-primary project-button">GitHub</a>
             </div>
           </div>
-          <div class="card" id="project-card">
+          <div class="card project-card">
             <img class="card-img-top" src={underConstructionImage} alt="Project"></img>
             <div class="card-body">
               <h5 class="card-title">DFW Sports Scanner</h5>

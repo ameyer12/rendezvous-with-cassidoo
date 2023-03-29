@@ -15,7 +15,8 @@ function rollDice(string){
             total += generateRandomInt(diceArray[1]);
             numberOfDiceToRoll--;
         }
-        numberOfDiceToRoll = 0;
     }
     return total;
 }
+
+console.log(rollDice("4d4"))

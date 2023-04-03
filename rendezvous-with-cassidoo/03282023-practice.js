@@ -1,4 +1,3 @@
-// Given a list of numbers, return all groups of repeating consecutive numbers.
 function generateRandomInt(max){
     return Math.floor(Math.random() * max + 1);
 }

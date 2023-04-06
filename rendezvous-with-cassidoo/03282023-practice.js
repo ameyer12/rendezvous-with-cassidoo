@@ -1,4 +1,4 @@
-// Given a list of numbers, return all groups of repeating consecutive numbers.
+//Given a string in dice notation, return a random integer you can get by rolling those dice.
 function generateRandomInt(max){
     return Math.floor(Math.random() * max + 1);
 }
@@ -18,5 +18,3 @@ function rollDice(string){
     }
     return total;
 }
-
-console.log(rollDice("4d4"))

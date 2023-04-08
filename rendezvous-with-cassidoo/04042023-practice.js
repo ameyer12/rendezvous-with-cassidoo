@@ -41,16 +41,15 @@ let suffixes = {
 
 function printCharacterAmount(string) {
     let result = [];
-    let joinedString = string.split(" ").join(" ");
-    let numberOfCharacters = joinedString.length.toString();
+    let numberOfCharacters = string.length.toString();
 
-    if(joinedString.length < 10){
-        return ones[joinedString.length];
+    if(string.length < 10){
+        return ones[string.length];
     }
-    if(joinedString.length < 20){
-        return tens[joinedString.length];
+    if(string.length < 20){
+        return tens[string.length];
     }
-    if(joinedString.length < 100){
+    if(string.length < 100){
         result.push(prefixes[numberOfCharacters[0]]);
         if(numberOfCharacters[1] != 0){
             result.push("-");
@@ -58,7 +57,7 @@ function printCharacterAmount(string) {
         } 
         return result.join("");
     }  
-    if(joinedString.length < 1000){
+    if(string.length < 1000){
         result.push(ones[numberOfCharacters[0]]);
         result.push(suffixes[1]);
         if(numberOfCharacters[1] != 0 && numberOfCharacters[1] > 1){
@@ -72,7 +71,7 @@ function printCharacterAmount(string) {
         }
         return result.join("");
     }
-    if(joinedString.length <= 9999){
+    if(string.length <= 9999){
         result.push(ones[numberOfCharacters[0]]);
         result.push(suffixes[2]);
         if(numberOfCharacters[1] == 0){
@@ -104,4 +103,4 @@ function printCharacterAmount(string) {
 }
 
 
-console.log(printCharacterAmount("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."))
+console.log(printCharacterAmount("Lorempsum"))

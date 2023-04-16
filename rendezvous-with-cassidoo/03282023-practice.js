@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-//Given a string in dice notation, return a random integer you can get by rolling those dice.
-=======
->>>>>>> 04b06414e12d747605ad25a1de52e817682ba382
 function generateRandomInt(max){
     return Math.floor(Math.random() * max + 1);
 }

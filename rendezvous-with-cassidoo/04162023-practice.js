@@ -46,7 +46,6 @@ function maxPointsOnLine(n) {
         resultMap.set('horizontal', 0);
         resultMap.set('vertical', 0);
 
-        console.log(resultMap)
         resultMap = new Map(
             [...resultMap]
             .filter(([name, num]) => name === "duplicate" || name === "horizontal" || name === "vertical")

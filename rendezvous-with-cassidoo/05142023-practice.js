@@ -32,5 +32,3 @@ function binaryPal(n) {
     }
     return true;
 }
-
-console.log(binaryPal(127))

@@ -11,7 +11,6 @@ function rotate(arr){
 
     // Add the first element to the back of the array
     arr.push(firstElement);
-
 }
 
 // Function to determine the number of times the array had been rotated

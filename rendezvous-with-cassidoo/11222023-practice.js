@@ -2,7 +2,7 @@
 even, or prime between a and b. a will not always necessarily be less than b! */
 
 function betweenNums(a, b, evalType) {
-    // Variable to store the result array, the start variable, and the end variable
+    // Variables to store the result array, the start variable, and the end variable
     let result = [];
     let start = 0;
     let end = 0;

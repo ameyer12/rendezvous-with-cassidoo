@@ -6,7 +6,7 @@ const majority = (arr) => {
     let evenAndOddCountObject = {
         even: 0,
         odd: 0
-    }
+    };
     let maxElementCount = 0;
     let maxElementArr = [];
 

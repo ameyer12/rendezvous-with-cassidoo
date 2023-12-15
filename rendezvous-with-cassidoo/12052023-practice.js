@@ -33,4 +33,5 @@ function rotatedNum(arr){
     return rotations;
 }
 
-console.log(rotatedNum([4, 0, 1, 2, 3]));
+// console.log(rotatedNum([4, 0, 1, 2, 3]));
+

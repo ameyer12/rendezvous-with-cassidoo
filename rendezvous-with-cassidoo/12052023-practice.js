@@ -11,7 +11,6 @@ function rotate(arr){
 
     // Add the first element to the back of the array
     arr.push(firstElement);
-
 }
 
 // Function to determine the number of times the array had been rotated
@@ -33,5 +32,9 @@ function rotatedNum(arr){
     return rotations;
 }
 
+<<<<<<< HEAD
 // console.log(rotatedNum([4, 0, 1, 2, 3]));
 
+=======
+console.log(rotatedNum([4, 0, 1, 2, 3]));
+>>>>>>> f4cddff55742a626c1945333946c41d07231cef8

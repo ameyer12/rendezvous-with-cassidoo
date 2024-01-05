@@ -2,7 +2,7 @@
  and all other gifts have a 30-day return window. Given a gift's buy date, write a function that prints the last day you can return the gift. 
  You can choose how dates should be formatted! */
 
- function returnGift(date) {
+function returnGift(date) {
     let formattedDate = new Date(date);
     let month = formattedDate.getMonth();
 

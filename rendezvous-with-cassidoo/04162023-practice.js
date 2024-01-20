@@ -15,7 +15,7 @@ function maxPointsOnLine(n) {
     let resultMap = new Map();
     let maxValue = 0;
 
-    if(n.length < 3){
+    if (n.length < 3) {
         return n.length;
     }
 
@@ -23,18 +23,18 @@ function maxPointsOnLine(n) {
     resultMap.set('horizontal', 0);
     resultMap.set('vertical', 0);
 
-    for(let i = 0; i < n.length; i++){
+    for (let i = 0; i < n.length; i++) {
         let resultMapMaxValue = 0;
-        for(let j = i + 1; j < n.length; j++){
+        for (let j = i + 1; j < n.length; j++) {
             let slope = pointSlope(n[i], n[j]);
-            
-            if(n[i][1] === n[j][1]){
-                resultMap.set("horizontal", (resultMap.get("horizontal"))+1);
-            } else if(n[i][0] === n[j][0]){
-                resultMap.set("vertical", (resultMap.get("vertical"))+1);
-            } else if(resultMap.get(slope) !== undefined){
-                resultMap.set(slope, (resultMap.get(slope))+1);
-            } else if(resultMap.get(slope) === undefined){
+
+            if (n[i][1] === n[j][1]) {
+                resultMap.set("horizontal", (resultMap.get("horizontal")) + 1);
+            } else if (n[i][0] === n[j][0]) {
+                resultMap.set("vertical", (resultMap.get("vertical")) + 1);
+            } else if (resultMap.get(slope) !== undefined) {
+                resultMap.set(slope, (resultMap.get(slope)) + 1);
+            } else if (resultMap.get(slope) === undefined) {
                 resultMap.set(slope, 1);
             }
         }
@@ -48,8 +48,8 @@ function maxPointsOnLine(n) {
 
         resultMap = new Map(
             [...resultMap]
-            .filter(([name, num]) => name === "duplicate" || name === "horizontal" || name === "vertical")
-          );
+                .filter(([name, num]) => name === "duplicate" || name === "horizontal" || name === "vertical")
+        );
     }
     return maxValue
 }

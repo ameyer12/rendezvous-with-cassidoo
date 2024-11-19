@@ -6,7 +6,7 @@ function maxTheStock(arr) {
 
   // Loop through input array
   for(let i = 0; i < arr.length; i++) {
-    // Variable to store the current price and profit
+    // Variables to store the current price and profit
     let price = arr[i];
     let profit = arr[i] - minBuyPrice;
 

@@ -84,7 +84,7 @@ function drawCube(n){
   return cube;
 }
 
-// console.log(drawCube(2));
-// console.log(drawCube(4));
-// console.log(drawCube(5));
-// console.log(drawCube(7));
+console.log(drawCube(2));
+console.log(drawCube(4));
+console.log(drawCube(5));
+console.log(drawCube(7));

@@ -9,11 +9,6 @@ function nestArray(arr) {
   }
 
   res.push([arr[0]])
-
-  if(arr.length < 2){
-    return res;
-  }
-
   res[0].push([arr[1]])
 
   for(let i = 2; i < arr.length; i++){
